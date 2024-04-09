@@ -1,33 +1,33 @@
 modLoader = "javafml"
 loaderVersion = "[${forge_version},)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/TropheusJ/construction/issues"
+license = "MIT"
 
 [[mods]]
-modId = "examplemod"
+modId = "construction"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Construction"
+authors = "TropheusJay"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A multi-loader API for Create addons.
 '''
 logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.construction]]
 modId = "forge"
 mandatory = true
 versionRange = "[${forge_version},)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.construction]]
 modId = "minecraft"
 mandatory = true
 versionRange = "${minecraft_version}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.construction]]
 modId="create"
 mandatory=true
 versionRange="${create_version}"

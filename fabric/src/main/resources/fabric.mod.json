@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "construction",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Construction",
+  "description": "A multi-loader API for Create addons.",
   "authors": [
-    "Me!"
+    "TropheusJay"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/TropheusJ/construction",
+    "issues": "https://github.com/TropheusJ/construction/issues"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT",
+  "icon": "assets/construction/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "io.github.tropheusj.construction.fabric.ConstructionFabric"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "construction.mixins.json",
+    "construction-common.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",
